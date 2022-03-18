@@ -1,5 +1,5 @@
-import React from "react";
-import { View, StyleSheet, text } from "react-native";
+import React from 'react';
+import { View, Text, StyleSheet } from 'react-native';
 
 const IndexScreen = () => {
   return (
@@ -8,7 +8,6 @@ const IndexScreen = () => {
     </View>
   );
 };
-
 
 const styles = StyleSheet.create({});
 
