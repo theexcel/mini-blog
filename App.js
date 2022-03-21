@@ -4,7 +4,7 @@ import { createStackNavigator } from "react-navigation-stack";
 import { Provider } from "./src/context/BlogContext";
 import ShowScreen from "./src/screen/ShowScreen";
 import CreateScreen from "./src/screen/CreateScreen";
-
+import EditScreen from "./src/screen/EditScreen";
 
 import IndexScreen from "./src/screen/IndexScreen";
 
@@ -12,7 +12,8 @@ const navigator = createStackNavigator(
   {
     Index: IndexScreen,
     Show: ShowScreen,
-    Create: CreateScreen
+    Create: CreateScreen,
+    Edit: EditScreen
   },
   {
     initialRouteName: "Index",
