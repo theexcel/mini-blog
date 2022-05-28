@@ -11,6 +11,7 @@ import { Context } from "../context/BlogContext";
 const BlogPostForm = ({ onSubmit, initialValues }) => {
   const [title, setTitle] = useState(initialValues.title);
   const [content, setContent] = useState(initialValues.content);
+  //my name is Excel
   return (
     <View>
       <Text style={styles.label}>Enter Title:</Text>
